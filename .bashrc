@@ -26,4 +26,7 @@ alias la="ls -a"
 alias grep="grep --color"
 alias pd=pushd
 
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 FCEDIT=vim
